@@ -316,3 +316,169 @@ export const unit11Supplement: UnitSupplement = {
   partBGrammarTranslations: partB11C_translations,
   grammar: grammar11C,
 };
+
+/* -------------------- 11D Listening and Speaking ----------------------- */
+// Real data taken from the Unit 11 audio track ("Unit 11 – Thanakha") and the
+// Grade-9 textbook page for 11D. Transcript lines are the spoken dialogue
+// between Mary (an Australian visitor) and Sandar.
+
+export type DialogueLine = { speaker: string; en: string; my: string };
+
+export const listening11D_intro = {
+  en: "Mary is a visitor from Australia. This is her very first visit to Myanmar. Her new friend Sandar is showing her around Baho Market in Shwebo.",
+  my: "မေရီသည် အော်စတြေးလျားမှ လာလည်သူ ဖြစ်သည်။ ဒါက သူမ၏ မြန်မာနိုင်ငံ ပထမဆုံး အလည်အပတ် ဖြစ်သည်။ သူမ၏ သူငယ်ချင်းအသစ် စန္ဒာက ရွှေဘိုမြို့ ဗဟိုဇေးကို လိုက်ပြနေသည်။",
+};
+
+export const listening11D_transcript: DialogueLine[] = [
+  {
+    speaker: "Mary",
+    en: "Sandar, may I ask a question about Myanmar customs and practices?",
+    my: "စန္ဒာရေ၊ မြန်မာ့ ထုံးတမ်းစဉ်လာနှင့် အလေ့အထများအကြောင်း မေးခွန်းတစ်ခု မေးလို့ရမလား။",
+  },
+  {
+    speaker: "Sandar",
+    en: "Of course you can. Please do.",
+    my: "ဟုတ်ကဲ့၊ မေးလို့ရပါတယ်။ မေးပါ။",
+  },
+  {
+    speaker: "Mary",
+    en: "I am not being impolite, but I am very curious.",
+    my: "ရိုင်းစိုင်းလိုတာ မဟုတ်ပါဘူး၊ ဒါပေမဲ့ အရမ်း သိချင်စိတ် ရှိနေတယ်။",
+  },
+  {
+    speaker: "Sandar",
+    en: "Please, feel free to ask.",
+    my: "အားမနာဘဲ လွတ်လွတ်လပ်လပ် မေးပါ။",
+  },
+  {
+    speaker: "Mary",
+    en: "Why do Myanmar people paint their faces yellow?",
+    my: "မြန်မာလူမျိုးများက အဘယ်ကြောင့် မျက်နှာကို အဝါရောင် ဆေးသုတ်ကြသနည်း။",
+  },
+  { speaker: "Sandar", en: "What do you mean?", my: "ဘာကို ဆိုလိုတာလဲ။" },
+  {
+    speaker: "Mary",
+    en: "Everywhere I go, I see children, men, women of all ages with yellow paint on their cheeks and foreheads. Who are they trying to hide from?",
+    my: "ကျွန်မ သွားသမျှ နေရာတိုင်းမှာ ကလေးများ၊ အမျိုးသားများ၊ အသက်အရွယ်မျိုးစုံ အမျိုးသမီးများက ပါးနှင့် နဖူးပေါ်တွင် အဝါရောင် ဆေးရေးထားတာ တွေ့တယ်။ သူတို့ ဘယ်သူ့ဆီက ဖွက်ချင်နေတာလဲ။",
+  },
+  {
+    speaker: "Sandar",
+    en: "Mary, no. They are not trying to hide from anyone or anything.",
+    my: "မေရီရေ၊ မဟုတ်ဘူး။ သူတို့က မည်သူ့ဆီကမှ၊ မည်သည့်အရာဆီကမှ ဖွက်နေတာ မဟုတ်ဘူး။",
+  },
+  {
+    speaker: "Mary",
+    en: "Do they wear it for religious reasons? Is the paint sacred? Does it come in other colours? Is the paint imported from China?",
+    my: "ဘာသာရေး အကြောင်းအရင်းကြောင့် လိမ်းတာလား။ ဒီဆေးက မြတ်နိုးဖွယ် သန့်ရှင်းသောအရာလား။ အခြားအရောင်များလည်း ရှိသလား။ ဒီဆေးကို တရုတ်ပြည်မှ တင်သွင်းတာလား။",
+  },
+  {
+    speaker: "Sandar",
+    en: "Oh, Mary, you have many questions. First of all, it is not paint. It is thanakha.",
+    my: "အိုး မေရီ၊ မေးခွန်းတွေ အများကြီးပဲ။ ဦးစွာပထမ — ဒါက ဆေးသုတ် မဟုတ်ဘူး။ ဒါက သနပ်ခါးပါ။",
+  },
+  { speaker: "Mary", en: "Thanakha?", my: "သနပ်ခါး ဟုတ်လား။" },
+  {
+    speaker: "Sandar",
+    en: "Would you like to know more?",
+    my: "ပိုသိချင်ပါသလား။",
+  },
+  { speaker: "Mary", en: "Thanks, I'd love to.", my: "ကျေးဇူးပါ၊ သိချင်ပါတယ်။" },
+  {
+    speaker: "Sandar",
+    en: "Thanakha is a tree. The bark is ground on a flat, circular stone with water to get a paste. It is used as a beauty treatment and sometimes medicine.",
+    my: "သနပ်ခါးက အပင်တစ်မျိုးပါ။ အခွံကို ပြားပြားလုံးဝိုင်း ကျောက်ပျဉ်ပေါ်တွင် ရေအနည်းငယ်ဖြင့် သွေးပြီး အနှစ်(အခေါင်း) ရယူသည်။ အလှအပ ပြုပြင်မှုအဖြစ် အသုံးပြုပြီး တစ်ခါတစ်ရံ ဆေးဝါးအဖြစ်လည်း အသုံးပြုသည်။",
+  },
+  {
+    speaker: "Mary",
+    en: "This is very interesting. Do you know that I am a beauty and cosmetics specialist?",
+    my: "ဒါ အရမ်း စိတ်ဝင်စားဖွယ်ပါ။ ကျွန်မက အလှအပနှင့် အလှကပ်ပစ္စည်း ကျွမ်းကျင်သူ ဖြစ်တာ သိလား။",
+  },
+  {
+    speaker: "Sandar",
+    en: "My mother, who is an expert on traditional medicine, taught me that thanakha helps protect the skin from the sun. Myanmar people who work in the sun smear thanakha on their faces.",
+    my: "ကျွန်မ အမေက ရိုးရာဆေးဝါး ကျွမ်းကျင်သူ ဖြစ်ပြီး၊ သနပ်ခါးက အသားအရေကို နေမှ ကာကွယ်ပေးသည်ဟု သင်ပေးခဲ့တယ်။ နေပူထဲ အလုပ်လုပ်ရသော မြန်မာလူမျိုးများက မျက်နှာတွင် သနပ်ခါး လိမ်းကျံကြတယ်။",
+  },
+  {
+    speaker: "Sandar",
+    en: "I have also seen young women who do not work outside in the sun with thin, creamy thanakha spread on their faces.",
+    my: "နေပူထဲ အပြင်တွင် အလုပ်မလုပ်ရသော အမျိုးသမီးငယ်များပါ မျက်နှာတွင် ပေါ့ပေါ့ပါးပါး သနပ်ခါး လိမ်းထားတာ တွေ့ဖူးတယ်။",
+  },
+  {
+    speaker: "Mary",
+    en: "What do you think about women of our age putting thanakha on their faces?",
+    my: "ကျွန်မတို့အရွယ် အမျိုးသမီးများ မျက်နှာတွင် သနပ်ခါး လိမ်းခြင်းအကြောင့် ဘယ်လို ထင်ပါသလဲ။",
+  },
+  {
+    speaker: "Sandar",
+    en: "I think it is a good practice. They are taking care of their skin.",
+    my: "ကောင်းသော အလေ့အထလို့ ထင်တယ်။ သူတို့က မိမိတို့ အသားအရေကို ထိန်းသိမ်းနေကြတယ်။",
+  },
+  {
+    speaker: "Mary",
+    en: "Why do parents put it on the faces of their children?",
+    my: "မိဘများက အဘယ်ကြောင့် သားသမီးများ မျက်နှာတွင် လိမ်းပေးကြသနည်း။",
+  },
+  {
+    speaker: "Sandar",
+    en: "Thanakha helps protect the children's faces from the sun. It is also soothing to the skin and smells nice. Parents who have children also do this to show their love.",
+    my: "သနပ်ခါးက ကလေးများ၏ မျက်နှာကို နေမှ ကာကွယ်ပေးတယ်။ အသားအရေကို အေးချမ်းစေပြီး အနံ့လည်း ကောင်းတယ်။ ကလေးရှိသော မိဘများက မေတ္တာကို ပြသရန်လည်း ဒီလို လုပ်ကြတယ်။",
+  },
+  { speaker: "Mary", en: "Is thanakha expensive?", my: "သနပ်ခါးက အဖိုးတန်သလား (ဈေးကြီးသလား)။" },
+  {
+    speaker: "Sandar",
+    en: "The price depends on which product is used. It can be bought as pieces of wood or ready-made in the form of creams, lotions, cakes, or powders.",
+    my: "ဈေးနှုန်းက မည်သည့်ပစ္စည်းကို အသုံးပြုသည်ပေါ် မှတည်တယ်။ သစ်သားအတုံးအစ အဖြစ် ဝယ်နိုင်တယ်၊ ဒါမှမဟုတ် ကရင်မ်၊ လိုးရှင်း၊ အလုံးအခဲ သို့မဟုတ် အမှုန့် အဖြစ် အသင့်ပြင်ထား(ready-made) ဝယ်နိုင်တယ်။",
+  },
+];
+
+export const partA11D_translations: Record<number, string> = {
+  1: "မေရီက စန္ဒာကို မြန်မာ့ ထုံးတမ်းစဉ်လာနှင့် အလေ့အထများအကြောင်း မေးမြန်းခဲ့သည်။",
+  2: "မေရီက မြန်မာလူမျိုးများသည် မျက်နှာကို အဝါရောင် ဆေးသုတ်(ရေးဆွဲ)ကြသည်ဟု ထင်ခဲ့သည်။",
+  3: "သူမ သွားသမျှ နေရာတိုင်းတွင် ပါးနှင့် နဖူးပေါ်၌ အဝါရောင်ဆေး ရှိသော မြန်မာလူမျိုးများကို တွေ့ခဲ့သည်။",
+  4: "သနပ်ခါးကို အလှအပ ပြုပြင်ရန် (beauty treatment) အဖြစ် အသုံးပြုပြီး တစ်ခါတစ်ရံ ဆေးဝါးအဖြစ်လည်း အသုံးပြုသည်။",
+  5: "စန္ဒာ၏ အမေသည် ရိုးရာဆေးဝါး (traditional medicine) ကျွမ်းကျင်သူ ဖြစ်သည်။",
+  6: "သနပ်ခါးက ကလေးများ၏ မျက်နှာကို နေမှ ကာကွယ်ပေးသည်။",
+  7: "သနပ်ခါးကို သစ်သားအတုံးအစအဖြစ် သို့မဟုတ် ကရင်မ်၊ လိုးရှင်း၊ အလုံးအခဲ၊ အမှုန့်အဖြစ် အသင့်ပြင်ထား (ready-made) ဝယ်နိုင်သည်။",
+};
+
+export const partB11D_translations: Record<number, string> = {
+  1: "'Would you care to come along?' — 'အတူလိုက်ချင်ပါသလား' ဟု ဖိတ်ကြားသော အဆိုပြုချက်။",
+  2: "'Yes, I would' — အဆိုပြုချက်ကို လက်ခံသည်။ ('would you ...?' ကို 'I would' ဖြင့် တိုအောင် ပြန်ဖြေသည်။)",
+  3: "'Why don't you buy ...?' — 'ဝယ်လိုက်ပါလား' ဟု အကြံပြုသည်။",
+  4: "'That sounds great, but ...' — အကြံပြုချက်ကို နှစ်သက်သော်လည်း သဘောမတူ/ပယ်သည်ကို ယဉ်ကျေးစွာ ဖော်ပြသည်။",
+  5: "'That's a good idea, but I've never used it.' — အကြံပြုချက်ကို ကောင်းသည်ဟု လက်ခံသည်။",
+};
+
+// Model answer for Part C (souvenir shopping with Susan).
+export const partC11D_modelDialogue: DialogueLine[] = [
+  {
+    speaker: "Susan",
+    en: "I'd like to buy souvenirs for my friends back home. Would you help me choose?",
+    my: "အိမ်ပြန်ရင် သူငယ်ချင်းများအတွက် အမှတ်တရ လက်မှတ်များ ဝယ်ချင်တယ်။ ရွေးပေးမလား။",
+  },
+  {
+    speaker: "You",
+    en: "Of course. Why don't you buy some thanakha cakes and a kyauk pyin? They are unique to Myanmar.",
+    my: "ဟုတ်ကဲ့။ သနပ်ခါးအခဲများနှင့် ကျောက်ပျဉ်တစ်ချပ် ဝယ်လိုက်ပါလား။ မြန်မာနိုင်ငံမှသာ ရှိသော ထူးခြားပစ္စည်းများပါ။",
+  },
+  {
+    speaker: "Susan",
+    en: "That's a great idea! Where can I buy them?",
+    my: "ဒါ အလွန်ကောင်းသော အကြံပါ။ ဘယ်မှာ ဝယ်နိုင်မလဲ။",
+  },
+  {
+    speaker: "You",
+    en: "Shall we go to Bogyoke Market? They also sell lacquerware, longyi and handmade bags there.",
+    my: "ဗိုလ်ချုပ်ဇေးကို သွားကြမလား။ အဲဒီမှာ ယွန်းထည်၊ လုံချည်နှင့် လက်လုပ် အိတ်များပါ ရောင်းတယ်။",
+  },
+  {
+    speaker: "Susan",
+    en: "That sounds good. Would you like to come with me tomorrow morning?",
+    my: "ဒါ ကောင်းပါတယ်။ မနက်ဖန် နံနက်ပိုင်း ကျွန်မနှင့် အတူလိုက်ချင်ပါသလား။",
+  },
+  {
+    speaker: "You",
+    en: "Thanks! I'd love to. Let's meet at nine o'clock.",
+    my: "ကျေးဇူးပါ၊ လိုက်ချင်ပါတယ်။ ကိုးနာရီမှာ တွေ့ကြရအောင်။",
+  },
+];
