@@ -403,18 +403,18 @@ export const grammar12C = {
 
 /** 12D Exercise A — urban / rural comparison table (per blank number). */
 export const partA12D_translations: Record<number, string> = {
-  1: "မြို့ပြဒေသရှိ ဘဝသည် အလုပ်များပြီး ရှုပ်ထွေးသည်။",
-  2: "ကျေးလက်ဒေသရှိ ဘဝသည် ရိုးရှင်းပြီး နှေးကွေးသည်။",
+  1: "မြို့ပြဒေသရှိ ဘဝသည် လျင်မြန်ပြီး ရှုပ်ထွေးသည် (fast)။",
+  2: "ကျေးလက်ဒေသရှိ ဘဝသည် ရိုးရှင်းပြီး အေးချမ်းသည် (relaxed)။",
   3: "မြို့ပြဒေသရှိ အခြေချမှုတွင် မြို့ကြီးများနှင့် မြို့ငယ်များ ပါဝင်သည်။",
   4: "ကျေးလက်ဒေသရှိ အခြေချမှုတွင် ရွာများနှင့် အိမ်အုပ်စုများ ပါဝင်သည်။",
   5: "မြို့ပြဒေသရှိ ပတ်ဝန်းကျင်သည် သဘာဝနှင့် ကွဲကွာနေသည်။",
   6: "ကျေးလက်ဒေသရှိ ပတ်ဝန်းကျင်သည် သဘာဝနှင့် တိုက်ရိုက် ထိစပ်နေသည်။",
   7: "မြို့ပြလူများသည် စိုက်ပျိုးရေးမဟုတ်သော အလုပ်များတွင် ပါဝင်သည်။",
-  8: "ကျေးလက်လူများ၏ အဓိက အလုပ်သည် စိုက်ပျိုးရေး ဖြစ်သည်။",
+  8: "ကျေးလက်လူများ၏ အဓိက အလုပ်သည် လယ်ယာစိုက်ပျိုးရေး (farming) ဖြစ်သည်။",
   9: "မြို့ပြဒေသများသည် လူသိပ်သည်းစွာ နေထိုင်သည်။",
   10: "ကျေးလက်ဒေသများသည် လူနည်းပါးစွာ နေထိုင်သည်။",
   11: "မြို့ပြလူများသည် အလုပ်ကို မကြာခဏ ပြောင်းလဲသည်။",
-  12: "ကျေးလက်လူများသည် အလုပ်ကို မကြာခဏ မပြောင်းလဲပါ။",
+  12: "ကျေးလက်လူများသည် အလုပ်ကို ပုံမှန်အားဖြင့် (usually) မပြောင်းလဲပါ။",
 };
 
 /** 12D Exercise B — doctor's appointment dialogue slots. */
@@ -434,3 +434,105 @@ export const writing12E_structureMy: Record<number, string> = {
   3: "ဆန့်ကျင်ဘက် အကြောင်းပြချက် — အခြားအမြင်ကို တင်ပြပြီး ပြန်လည် ရှင်းလင်းချေပခြင်း",
   4: "အနိဂုံ — အနှစ်ချုပ် နိဂုံးချုပ် သုံးသပ်ချက်",
 };
+
+/** 12D listening track — real transcript of "Unit 12 – Urbanization". */
+export type Dialogue12Line = { speaker: string; en: string; my: string };
+
+export const listening12D_transcript: { en: string; my: string }[] = [
+  {
+    en: "Unit 12, Urbanization.",
+    my: "အခန်း ၁၂ — မြို့ပြဖြစ်ထွန်းလာမှု။",
+  },
+  {
+    en: "Life in urban areas is fast and complicated, whereas rural life is simple and relaxed.",
+    my: "မြို့ပြဒေသရှိ ဘဝသည် လျင်မြန်ပြီး ရှုပ်ထွေးသည်၊ ကျေးလက်ဘဝမှာ ရိုးရှင်းပြီး အေးချမ်းသည်။",
+  },
+  {
+    en: "The urban settlement includes cities and towns.",
+    my: "မြို့ပြ အခြေချမှုတွင် မြို့ကြီးများနှင့် မြို့ငယ်များ ပါဝင်သည်။",
+  },
+  {
+    en: "On the other hand, the rural settlement includes villages and groups of houses.",
+    my: "အခြားတစ်ဖက်တွင် ကျေးလက် အခြေချမှုတွင် ရွာများနှင့် အိမ်အုပ်စုများ ပါဝင်သည်။",
+  },
+  {
+    en: "Urban areas are separated from nature, but rural areas are in direct contact with nature.",
+    my: "မြို့ပြဒေသများသည် သဘာဝနှင့် ကွဲကွာနေသည်၊ ကျေးလက်ဒေသများမှာ သဘာဝနှင့် တိုက်ရိုက် ထိစပ်နေသည်။",
+  },
+  {
+    en: "Urban people are engaged in non-agricultural work.",
+    my: "မြို့ပြလူများသည် စိုက်ပျိုးရေးမဟုတ်သော အလုပ်များတွင် ပါဝင်ကြသည်။",
+  },
+  {
+    en: "In contrast, the primary occupation of rural people is farming.",
+    my: "ဆန့်ကျင်ဘက်အနေဖြင့် ကျေးလက်လူများ၏ အဓိက အလုပ်သည် လယ်ယာစိုက်ပျိုးရေး ဖြစ်သည်။",
+  },
+  {
+    en: "Population-wise, urban areas are densely populated. On the contrary, rural areas are sparsely populated.",
+    my: "လူဦးရေအရ မြို့ပြဒေသများသည် လူသိပ်သည်းသည်။ ဆန့်ကျင်ဘက်အနေဖြင့် ကျေးလက်ဒေသများသည် လူနည်းပါးသည်။",
+  },
+  {
+    en: "When it comes to jobs, urban people often change their jobs, looking for better opportunities.",
+    my: "အလုပ်အကိုင် ကိစ္စတွင် မြို့ပြလူများသည် ပိုကောင်းသော အခွင့်အလမ်းများ ရှာရန် အလုပ်ကို မကြာခဏ ပြောင်းလဲကြသည်။",
+  },
+  {
+    en: "However, in rural areas, people do not usually change their jobs.",
+    my: "သို့သော် ကျေးလက်ဒေသများတွင် လူများသည် အလုပ်ကို ပုံမှန်အားဖြင့် မပြောင်းလဲကြပါ။",
+  },
+];
+
+/** 12D Exercise C — model dialogue for making an appointment with a dentist. */
+export const partC12D_modelDialogue: Dialogue12Line[] = [
+  {
+    speaker: "Receptionist",
+    en: "Good morning, Dr. Myint's dental clinic. May I help you?",
+    my: "မင်္ဂလာနံနက်ခင်းပါ၊ ဒေါက်တာမြင့် သွားဆေးခန်းပါ။ ကူညီပေးရမလား။",
+  },
+  {
+    speaker: "Patient",
+    en: "Yes, I'd like to make an appointment with the dentist.",
+    my: "ဟုတ်ကဲ့၊ သွားဆရာဝန်နှင့် ချိန်းဆိုချက် ယူလိုပါတယ်။",
+  },
+  {
+    speaker: "Receptionist",
+    en: "Certainly. Could you tell me what your problem is?",
+    my: "ရပါတယ်။ ဘာပြဿနာ ရှိတာလဲ ပြောပြပေးနိုင်မလား။",
+  },
+  {
+    speaker: "Patient",
+    en: "I have a bad toothache and my gum is swollen.",
+    my: "သွားအရမ်း ကိုက်နေပြီး သွားဖုံးလည်း ရောင်နေပါတယ်။",
+  },
+  {
+    speaker: "Receptionist",
+    en: "I see. Dr. Myint can see you tomorrow. Can you come in the afternoon?",
+    my: "အင်း၊ ဒေါက်တာမြင့်က မနက်ဖန် တွေ့နိုင်ပါတယ်။ နေ့လယ်ပိုင်း လာနိုင်မလား။",
+  },
+  {
+    speaker: "Patient",
+    en: "Certainly. What time should I come?",
+    my: "ရပါတယ်။ ဘယ်အချိန် လာရမလဲ။",
+  },
+  {
+    speaker: "Receptionist",
+    en: "How about 2 o'clock?",
+    my: "၂ နာရီ ဘယ်လိုလဲ။",
+  },
+  {
+    speaker: "Patient",
+    en: "Yes, 2 o'clock is fine.",
+    my: "ဟုတ်ကဲ့၊ ၂ နာရီ အဆင်ပြေပါတယ်။",
+  },
+  {
+    speaker: "Receptionist",
+    en: "May I have your name?",
+    my: "နာမည် ပြောပြပေးပါ။",
+  },
+  { speaker: "Patient", en: "Su Myat.", my: "စုမြတ် ပါ။" },
+  {
+    speaker: "Receptionist",
+    en: "OK, 2 o'clock tomorrow afternoon.",
+    my: "ဟုတ်ကဲ့၊ မနက်ဖန် နေ့လယ် ၂ နာရီ ပါ။",
+  },
+  { speaker: "Patient", en: "Thank you. Goodbye.", my: "ကျေးဇူးတင်ပါတယ်။ သွားတော့မယ်။" },
+];
