@@ -377,10 +377,26 @@ function GrammarView11() {
 
 /* ----------------------- Listening / Speaking (11D) ---------------------- */
 
+function DialogueScript({ lines }: { lines: { speaker: string; en: string; my: string }[] }) {
+  return (
+    <ol className="mt-3 space-y-2.5">
+      {lines.map((l, i) => (
+        <li key={i} className="rounded-lg border border-border bg-background p-3">
+          <p className="text-sm leading-relaxed">
+            <span className="font-bold text-primary">{l.speaker}:</span> {l.en}
+          </p>
+          <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{l.my}</p>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
 function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
   const data = getUnit11Section("11D") as any;
   const lesson = getUnit11Lesson("11D") as any;
   const audio = getUnitAudio(11);
+  const partA = data?.part_A;
   const partB = data?.part_B;
   const partC = data?.part_C;
 
@@ -399,7 +415,7 @@ function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
 
       <LessonAudioPlayer
         src={audio}
-        script={lesson?.intro ?? ""}
+        script={listening11D_transcript.map((l) => `${l.speaker}: ${l.en}`).join("\n")}
         label={skill === "speaking" ? "Model pronunciation" : "Listening track"}
         hint={
           skill === "speaking"
@@ -408,20 +424,72 @@ function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
         }
       />
 
-      {skill === "listening" && data?.part_A?.exercises?.length ? (
-        <ExerciseGroup
-          title="Exercise A — Listen and complete"
-          titleMy="လေ့ကျင့်ခန်း A — နားထောင်ပြီး ဖြည့်စွက်ပါ"
-          instructions={data.part_A.instructions}
-          enableStructure={false}
-          placeholder="Type what you hear…"
-          items={data.part_A.exercises.map((e: any) => ({
-            id: e.question_number,
-            text: e.question ?? e.text,
-            translation: "",
-            answer: e.answer ?? "Listen to the dialogue to confirm your answer",
-          }))}
-        />
+      {skill === "listening" ? (
+        <>
+          <section className="rounded-2xl border border-border bg-card p-5">
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
+              <ListChecks className="h-3.5 w-3.5" /> Before you listen
+            </div>
+            <p className="mt-2 text-sm leading-relaxed">{listening11D_intro.en}</p>
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+              {listening11D_intro.my}
+            </p>
+          </section>
+
+          {partA?.exercises?.length ? (
+            <ExerciseGroup
+              title="Exercise A — Listen and complete"
+              titleMy="လေ့ကျင့်ခန်း A — နားထောင်ပြီး ဖြည့်စွက်ပါ"
+              instructions={partA.instructions}
+              enableStructure={false}
+              placeholder="Type what you hear…"
+              items={partA.exercises.map((e: any) => ({
+                id: e.question_number,
+                text: e.question ?? e.text,
+                translation: partA11D_translations[e.question_number] ?? "",
+                answer: e.answer ?? "",
+              }))}
+            />
+          ) : null}
+
+          <section className="rounded-2xl border border-border bg-card p-5">
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
+              <BookOpen className="h-3.5 w-3.5" /> Audio transcript — Mary &amp; Sandar
+            </div>
+            <p className="mt-1 text-xs text-muted-foreground">
+              ကိုယ်တိုင် အရင်ဖြေပါ။ ပြီးမှ စကားဝိုင်း စာသားကို ဖွင့်ကြည့်ပါ။
+            </p>
+            <ToggleReveal label="Show transcript + Burmese" tone="primary">
+              <DialogueScript lines={listening11D_transcript} />
+            </ToggleReveal>
+          </section>
+        </>
+      ) : null}
+
+      {skill === "speaking" && partB?.dialogue?.length ? (
+        <section className="rounded-2xl border border-border bg-card p-5">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
+            <ListChecks className="h-3.5 w-3.5" /> {partB.title ?? "Complete the dialogue"}
+          </div>
+          <p className="mt-1 text-xs text-muted-foreground">{partB.instructions}</p>
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {(partB.expressions ?? []).map((e: string) => (
+              <span
+                key={e}
+                className="rounded-full border border-primary/30 bg-primary/5 px-2.5 py-1 text-xs font-medium"
+              >
+                {e}
+              </span>
+            ))}
+          </div>
+          <ol className="mt-3 space-y-2">
+            {partB.dialogue.map((l: any, i: number) => (
+              <li key={i} className="rounded-lg border border-border bg-background p-3 text-sm">
+                <span className="font-bold text-primary">{l.speaker}:</span> {l.line}
+              </li>
+            ))}
+          </ol>
+        </section>
       ) : null}
 
       {skill === "speaking" && partB?.exercises?.length ? (
@@ -434,7 +502,7 @@ function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
           items={partB.exercises.map((e: any) => ({
             id: e.question_number,
             text: e.question ?? e.text,
-            translation: "",
+            translation: partB11D_translations[e.question_number] ?? "",
             answer: e.answer ?? "",
           }))}
         />
@@ -462,6 +530,9 @@ function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
               </div>
             ))}
           </div>
+          <ToggleReveal label="Show model dialogue" tone="emerald">
+            <DialogueScript lines={partC11D_modelDialogue} />
+          </ToggleReveal>
         </section>
       ) : null}
 
@@ -486,6 +557,7 @@ function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
     </div>
   );
 }
+
 
 /* ------------------------------ Writing (11E) ---------------------------- */
 
