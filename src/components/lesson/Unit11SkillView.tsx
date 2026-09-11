@@ -30,6 +30,11 @@ import {
   partB11C_translations,
   grammar11C,
   vocab11B,
+  listening11D_intro,
+  listening11D_transcript,
+  partA11D_translations,
+  partB11D_translations,
+  partC11D_modelDialogue,
 } from "@/data/unit11Supplement";
 import { getUnitAudio } from "@/lib/localData";
 import type { PracticeSkill } from "@/lib/practice";
