@@ -624,15 +624,9 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
                     <td className="py-3 pr-4 font-medium capitalize">{row.feature}</td>
                     <td className="py-3 px-4">
                       <p>{row.urban}</p>
-                      <ToggleReveal label="Translate" icon={Languages}>
-                        {partA12D_translations[row.urban_number] ?? ""}
-                      </ToggleReveal>
                     </td>
                     <td className="py-3 pl-4">
                       <p>{row.rural}</p>
-                      <ToggleReveal label="Translate" icon={Languages}>
-                        {partA12D_translations[row.rural_number] ?? ""}
-                      </ToggleReveal>
                     </td>
                   </tr>
                 ))}
@@ -646,11 +640,12 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
                 titleMy="လေ့ကျင့်ခန်း A — နားထောင်ပြီး ဖြည့်စွက်ပါ"
                 instructions={data.part_A.instructions}
                 enableStructure={false}
+                enableTranslate={false}
                 placeholder="Type what you hear…"
                 items={data.part_A.exercises.map((e: any) => ({
                   id: e.question_number,
                   text: e.question ?? e.text,
-                  translation: partA12D_translations[e.question_number] ?? "",
+                  translation: "",
                   answer: e.answer ?? "Listen to the talk to confirm your answer",
                 }))}
               />
@@ -695,9 +690,6 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
                 ) : (
                   <div className="mt-1">
                     <p className="font-medium">({line.slot}) __________</p>
-                    <ToggleReveal label="Translate" icon={Languages}>
-                      {partB12D_translations[line.slot] ?? ""}
-                    </ToggleReveal>
                   </div>
                 )}
               </div>
@@ -711,11 +703,12 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
                 titleMy="လေ့ကျင့်ခန်း B — အသုံးအနှုန်း ရွေးချယ်ပါ"
                 instructions={data.part_B.instructions}
                 enableStructure={false}
+                enableTranslate={false}
                 placeholder="a–f…"
                 items={data.part_B.exercises.map((e: any) => ({
                   id: e.question_number,
                   text: e.question ?? e.text,
-                  translation: partB12D_translations[e.question_number] ?? "",
+                  translation: "",
                   answer: e.answer ?? "",
                 }))}
               />
