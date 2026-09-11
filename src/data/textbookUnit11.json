@@ -832,39 +832,40 @@
           {
             "question_number": 1,
             "text": "Mary asked Sandar about ________.",
-            "answer": null
+            "answer": "Myanmar customs and practices"
           },
           {
             "question_number": 2,
             "text": "Mary thought that Myanmar people ________ their faces yellow.",
-            "answer": null
+            "answer": "painted"
           },
           {
             "question_number": 3,
             "text": "Mary said that wherever she went, she saw Myanmar people with ________ on their cheeks and foreheads.",
-            "answer": null
+            "answer": "yellow paint"
           },
           {
             "question_number": 4,
             "text": "Sandar explained to Mary that thanakha is used as a ________ and sometimes as medicine.",
-            "answer": null
+            "answer": "beauty treatment"
           },
           {
             "question_number": 5,
             "text": "Sandar's mother is an expert on ________.",
-            "answer": null
+            "answer": "traditional medicine"
           },
           {
             "question_number": 6,
             "text": "Sandar told Mary that thanakha helps protect ________ faces from the sun.",
-            "answer": null
+            "answer": "the children's"
           },
           {
             "question_number": 7,
             "text": "Sandar said that thanakha could be bought as pieces of wood, or ________ in the form of creams, lotions, cakes or powders.",
-            "answer": null
+            "answer": "ready-made"
           }
-        ]
+        ],
+        "context": "Mary is a visitor from Australia. This is her very first visit to Myanmar. Her new friend Sandar is showing her around Baho Market in Shwebo."
       },
       "part_B": {
         "instructions": "Complete the dialogue with the expressions given in the box.",
@@ -901,10 +902,70 @@
             "text": "Well, (5) ________, but I've never used it. I think I should try.",
             "answer": "that's a good idea"
           }
+        ],
+        "title": "Making and responding to suggestions",
+        "dialogue": [
+          {
+            "speaker": "Nu Nu",
+            "line": "Hello, Thandar, where are you off to?"
+          },
+          {
+            "speaker": "Thandar",
+            "line": "The supermarket, to buy a few cosmetic items."
+          },
+          {
+            "speaker": "Nu Nu",
+            "line": "Such as?"
+          },
+          {
+            "speaker": "Thandar",
+            "line": "Oh you know, lipstick, make-up, eye shadow, so on and so forth. (1) ________ care to come along?",
+            "blank": 1
+          },
+          {
+            "speaker": "Nu Nu",
+            "line": "Yes, (2) ________, maybe just to keep you company and look around for a lipstick and eye shadow.",
+            "blank": 2
+          },
+          {
+            "speaker": "Thandar",
+            "line": "(3) ________ buy creams or lotions to protect your skin from sunburn?",
+            "blank": 3
+          },
+          {
+            "speaker": "Nu Nu",
+            "line": "(4) ________ great, but I prefer our local product as it works fine for me.",
+            "blank": 4
+          },
+          {
+            "speaker": "Thandar",
+            "line": "What do you mean by local product?"
+          },
+          {
+            "speaker": "Nu Nu",
+            "line": "Thanakha, of course. It beats all foreign products, and what's more, it is not expensive."
+          },
+          {
+            "speaker": "Thandar",
+            "line": "Really?"
+          },
+          {
+            "speaker": "Nu Nu",
+            "line": "Of course. Have you ever seen my face turning oily? It's thanakha that keeps my complexion in good shape."
+          },
+          {
+            "speaker": "Thandar",
+            "line": "Well, (5) ________, but I've never used it. I think I should try.",
+            "blank": 5
+          },
+          {
+            "speaker": "Nu Nu",
+            "line": "You certainly should. And I guarantee that you'll come to prefer it to all those fancy foreign products!"
+          }
         ]
       },
       "part_C": {
-        "instructions": "Your friend, Susan who has come to visit Myanmar, wants to buy souvenirs for her friends. In pairs, write a short dialogue between Susan and you making suggestions to her on what to buy and where to buy them.",
+        "instructions": "Your friend, Susan who has come to visit Myanmar, wants to buy souvenirs for her friends. In pairs, write a short dialogue between Susan and you making suggestions to her on what to buy and where to buy them. You can use the expressions given below.",
         "making_suggestions": [
           "Would you care ...?",
           "Why don't you ...?",
