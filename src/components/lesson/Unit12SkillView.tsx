@@ -38,6 +38,8 @@ import {
   partD12C_translations,
   partA12D_translations,
   partB12D_translations,
+  listening12D_transcript,
+  partC12D_modelDialogue,
   writing12E_structureMy,
   grammar12C,
   vocab12B,
@@ -571,7 +573,7 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
 
       <LessonAudioPlayer
         src={audio}
-        script={lesson?.intro ?? ""}
+        script={listening12D_transcript.map((l) => l.en).join(" ")}
         label={skill === "speaking" ? "Model pronunciation" : "Listening track"}
         hint={
           skill === "speaking"
@@ -579,6 +581,27 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
             : "နားထောင်ပြီး ကွက်လပ်တွေကို ဖြည့်ပါ။"
         }
       />
+
+      {skill === "listening" ? (
+        <section className="rounded-2xl border border-border bg-card p-5">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
+            <BookOpen className="h-3.5 w-3.5" /> Listening script — Unit 12 · Urbanization
+          </div>
+          <p className="mt-1 text-xs text-muted-foreground">
+            အသံဖိုင်ကို နားထောင်ပြီးမှ စာကြောင်းများကို ဖွင့်ကြည့်ပါ။
+          </p>
+          <ToggleReveal label="Show transcript" hiddenLabel="Hide transcript" tone="primary">
+            <div className="space-y-3">
+              {listening12D_transcript.map((line, i) => (
+                <div key={i}>
+                  <p className="font-medium">{line.en}</p>
+                  <p className="text-xs text-muted-foreground">{line.my}</p>
+                </div>
+              ))}
+            </div>
+          </ToggleReveal>
+        </section>
+      ) : null}
 
       {skill === "listening" && data?.part_A?.table_rows?.length ? (
         <section className="rounded-2xl border border-border bg-card p-5">
@@ -698,6 +721,34 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
               />
             </div>
           ) : null}
+        </section>
+      ) : null}
+
+      {skill === "speaking" ? (
+        <section className="rounded-2xl border border-border bg-card p-5">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
+            <ListChecks className="h-3.5 w-3.5" /> Exercise C — pair work
+          </div>
+          <p className="mt-1 text-sm">
+            {data?.part_C?.instructions ??
+              "In pairs, practise making an appointment with a dentist."}
+          </p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            တွဲဖက်နှင့် အတူ သွားဆရာဝန်နှင့် ချိန်းဆိုမှု ပြုလုပ်ပုံကို လေ့ကျင့်ပါ။
+          </p>
+          <ToggleReveal label="Show model dialogue" hiddenLabel="Hide model dialogue" tone="emerald">
+            <div className="space-y-3">
+              {partC12D_modelDialogue.map((line, i) => (
+                <div key={i}>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">
+                    {line.speaker}
+                  </span>
+                  <p className="font-medium">{line.en}</p>
+                  <p className="text-xs text-muted-foreground">{line.my}</p>
+                </div>
+              ))}
+            </div>
+          </ToggleReveal>
         </section>
       ) : null}
 

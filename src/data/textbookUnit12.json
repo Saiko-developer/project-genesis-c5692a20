@@ -132,40 +132,90 @@
       "questions": [
         {
           "id": 1,
-          "question": "According to the talk, why do people move from rural areas to urban areas?",
-          "suggested_answer": "They move to find jobs, better education, better healthcare and new forms of livelihood."
+          "question": "How is life in urban areas described in the talk?",
+          "suggested_answer": "It is fast and complicated."
         },
         {
           "id": 2,
-          "question": "Name two advantages of urban life mentioned in the talk.",
-          "suggested_answer": "Better infrastructure and more job opportunities; also better schools and hospitals."
+          "question": "How is rural life described?",
+          "suggested_answer": "It is simple and relaxed."
         },
         {
           "id": 3,
-          "question": "Name two disadvantages of urban life.",
-          "suggested_answer": "Traffic congestion and the growth of slums with poor sanitation; also higher crime."
+          "question": "What does the urban settlement include?",
+          "suggested_answer": "Cities and towns."
         },
         {
           "id": 4,
-          "question": "Name two advantages of rural life.",
-          "suggested_answer": "Fresh air and a peaceful, close community life with a lower cost of living."
+          "question": "What does the rural settlement include?",
+          "suggested_answer": "Villages and groups of houses."
+        },
+        {
+          "id": 5,
+          "question": "What is said about the environment in the two areas?",
+          "suggested_answer": "Urban areas are separated from nature, but rural areas are in direct contact with nature."
+        },
+        {
+          "id": 6,
+          "question": "What kind of work are urban people engaged in?",
+          "suggested_answer": "Non-agricultural work."
+        },
+        {
+          "id": 7,
+          "question": "What is the primary occupation of rural people?",
+          "suggested_answer": "Farming (agriculture)."
+        },
+        {
+          "id": 8,
+          "question": "Compare the population of urban and rural areas.",
+          "suggested_answer": "Urban areas are densely populated; rural areas are sparsely populated."
+        },
+        {
+          "id": 9,
+          "question": "Why do urban people often change their jobs?",
+          "suggested_answer": "They change jobs because they are looking for better opportunities."
+        },
+        {
+          "id": 10,
+          "question": "Do rural people change their jobs often?",
+          "suggested_answer": "No, in rural areas people do not usually change their jobs."
         }
       ],
       "bonusQuestions": [
         {
           "id": 1,
-          "question": "You want to see the doctor tomorrow morning. What do you say on the phone?",
-          "suggested_answer": "Hello, I'd like to make an appointment with Dr Aung for tomorrow morning, please."
+          "question": "You phone the clinic. How do you begin the call?",
+          "suggested_answer": "I'd like to make an appointment with the doctor."
         },
         {
           "id": 2,
-          "question": "The receptionist offers 3 p.m. but you are busy. What do you say?",
-          "suggested_answer": "I'm sorry, 3 p.m. isn't convenient for me. Could I come at 5 p.m. instead?"
+          "question": "The receptionist asks what your problem is. What do you say?",
+          "suggested_answer": "I'm not feeling very well."
         },
         {
           "id": 3,
-          "question": "How do you confirm and end the call politely?",
-          "suggested_answer": "So that's Tuesday at 5 p.m. Thank you very much. Goodbye."
+          "question": "The receptionist asks if you can come in the morning. What do you say?",
+          "suggested_answer": "Certainly."
+        },
+        {
+          "id": 4,
+          "question": "She offers 10 o'clock. How do you accept?",
+          "suggested_answer": "Yes, 10 o'clock is fine."
+        },
+        {
+          "id": 5,
+          "question": "She asks for your name. What do you say?",
+          "suggested_answer": "Nay Aung."
+        },
+        {
+          "id": 6,
+          "question": "How do you end the call politely?",
+          "suggested_answer": "Thank you. Goodbye."
+        },
+        {
+          "id": 7,
+          "question": "Now make an appointment with a dentist: how do you ask for an early appointment because of toothache?",
+          "suggested_answer": "I'd like to make an appointment with the dentist, please. I have a bad toothache. Could I come as early as possible tomorrow?"
         }
       ]
     },
@@ -839,10 +889,10 @@
           {
             "feature": "life",
             "urban": "Life in urban areas is __________ and complicated.",
-            "urban_answer": "busy",
+            "urban_answer": "fast",
             "urban_number": 1,
             "rural": "Life in rural areas is simple and __________",
-            "rural_answer": "slow",
+            "rural_answer": "relaxed",
             "rural_number": 2
           },
           {
@@ -869,7 +919,7 @@
             "urban_answer": "work",
             "urban_number": 7,
             "rural": "The primary job of rural people is __________",
-            "rural_answer": "agriculture",
+            "rural_answer": "farming",
             "rural_number": 8
           },
           {
@@ -887,7 +937,7 @@
             "urban_answer": "often",
             "urban_number": 11,
             "rural": "People do not __________ change their jobs.",
-            "rural_answer": "often",
+            "rural_answer": "usually",
             "rural_number": 12
           }
         ],
@@ -895,12 +945,12 @@
           {
             "question_number": 1,
             "text": "life (urban area): Life in urban areas is __________ and complicated.",
-            "answer": "busy"
+            "answer": "fast"
           },
           {
             "question_number": 2,
             "text": "life (rural area): Life in rural areas is simple and __________",
-            "answer": "slow"
+            "answer": "relaxed"
           },
           {
             "question_number": 3,
@@ -930,7 +980,7 @@
           {
             "question_number": 8,
             "text": "people (rural area): The primary job of rural people is __________",
-            "answer": "agriculture"
+            "answer": "farming"
           },
           {
             "question_number": 9,
@@ -950,9 +1000,10 @@
           {
             "question_number": 12,
             "text": "jobs (rural area): People do not __________ change their jobs.",
-            "answer": "often"
+            "answer": "usually"
           }
-        ]
+        ],
+        "audio_title": "Unit 12 – Urbanization"
       },
       "part_B": {
         "title": "Making an appointment with a doctor",
@@ -1072,7 +1123,8 @@
       },
       "part_C": {
         "instructions": "In pairs, practise making an appointment with a dentist.",
-        "type": "pair_work"
+        "type": "pair_work",
+        "model_title": "Model dialogue — making an appointment with a dentist"
       }
     },
     {
