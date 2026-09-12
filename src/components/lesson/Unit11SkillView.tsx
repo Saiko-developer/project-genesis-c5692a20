@@ -43,6 +43,25 @@ import type { PracticeSkill } from "@/lib/practice";
 
 const UNIT11 = unit11 as any;
 
+/**
+ * Local-only Burmese translations for the 11D "Comprehension check" questions.
+ * Kept inside this Unit 11 view so no global localisation config is touched.
+ */
+const COMPREHENSION11D_TRANSLATIONS: Record<string, string> = {
+  "What does Mary ask Sandar about at the beginning of the dialogue?":
+    "စကားဝိုင်း အစပိုင်းတွင် Mary သည် Sandar ကို ဘာအကြောင်း မေးသလဲ။",
+  "Why does Mary think Myanmar people paint their faces yellow?":
+    "မြန်မာလူမျိုးများ မျက်နှာကို အဝါရောင် လိမ်းကြသည်ဟု Mary ဘာကြောင့် ထင်သလဲ။",
+  "How is thanakha paste made?": "သနပ်ခါး အနှစ်ကို ဘယ်လို ပြုလုပ်သလဲ။",
+  "Who taught Sandar that thanakha protects the skin from the sun?":
+    "သနပ်ခါးသည် အရေပြားကို နေမှ ကာကွယ်ပေးသည်ဟု Sandar ကို ဘယ်သူ သင်ပေးခဲ့သလဲ။",
+  "Why do parents put thanakha on their children's faces?":
+    "မိဘများသည် ကလေးများ၏ မျက်နှာပေါ်တွင် သနပ်ခါး ဘာကြောင့် လိမ်းပေးသလဲ။",
+  "In what forms can thanakha be bought?": "သနပ်ခါးကို ဘယ်လိုပုံစံများနှင့် ဝယ်ယူနိုင်သလဲ။",
+  "Does the price of thanakha stay the same?": "သနပ်ခါး၏ ဗျာစျေးနှုန်းသည် အတူတူပဲ ရှိသလား။",
+};
+
+
 function getUnit11Lesson(code: string) {
   const all = [...(UNIT11.lessons ?? []), ...(UNIT11.sections ?? [])];
   return all.find((l: any) => l?.code === code) ?? null;
