@@ -800,7 +800,7 @@ function ListeningSpeakingView12({ skill }: { skill: PracticeSkill }) {
         ).map((q: any) => ({
           id: q.id,
           text: q.question,
-          translation: "",
+          translation: compCheck12D_translationsMy[String(q.question ?? "").trim()] ?? "",
           answer: q.suggested_answer ?? q.answer ?? "",
         }))}
       />
