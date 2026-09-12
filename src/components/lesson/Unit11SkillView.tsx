@@ -548,6 +548,7 @@ function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
         }
         instructions={lesson?.intro ?? ""}
         enableStructure={false}
+        enableTranslate={skill !== "speaking"}
         placeholder={skill === "speaking" ? "Type what you would say…" : "Type your answer…"}
         items={(skill === "speaking"
           ? (lesson?.bonusQuestions ?? lesson?.questions ?? [])
@@ -555,10 +556,12 @@ function ListeningSpeakingView11({ skill }: { skill: PracticeSkill }) {
         ).map((q: any) => ({
           id: q.id,
           text: q.question,
-          translation: "",
+          translation:
+            skill === "speaking" ? "" : (COMPREHENSION11D_TRANSLATIONS[q.question] ?? ""),
           answer: q.suggested_answer ?? q.answer ?? "",
         }))}
       />
+
     </div>
   );
 }
