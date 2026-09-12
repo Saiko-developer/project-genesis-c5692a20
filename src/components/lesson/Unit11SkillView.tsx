@@ -58,7 +58,7 @@ const COMPREHENSION11D_TRANSLATIONS: Record<string, string> = {
   "Why do parents put thanakha on their children's faces?":
     "မိဘများသည် ကလေးများ၏ မျက်နှာပေါ်တွင် သနပ်ခါး ဘာကြောင့် လိမ်းပေးသလဲ။",
   "In what forms can thanakha be bought?": "သနပ်ခါးကို ဘယ်လိုပုံစံများနှင့် ဝယ်ယူနိုင်သလဲ။",
-  "Does the price of thanakha stay the same?": "သနပ်ခါး၏ ဗျာစျေးနှုန်းသည် အတူတူပဲ ရှိသလား။",
+  "Does the price of thanakha stay the same?": "သနပ်ခါး၏ စျေးနှုန်းသည် အတူတူပဲ ရှိသလား။",
 };
 
 
