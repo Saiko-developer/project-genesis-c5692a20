@@ -116,25 +116,105 @@
       "questions": [
         {
           "id": 1,
-          "question": "Match the words: 1. responsible, 2. balanced, 3. vital, 4. supply, 5. artificially.",
-          "suggested_answer": "1 -> b (having the job or duty of taking care of somebody / something), 2 -> i (containing different parts in suitable quantities), 3 -> j (extremely important or necessary), 4 -> c (an amount of something), 5 -> h (not naturally)"
+          "question": "responsible",
+          "suggested_answer": "b"
         },
         {
           "id": 2,
-          "question": "Match the words: 6. allergy, 7. additive, 8. colourants, 9. pesticides, 10. hygienically.",
-          "suggested_answer": "6 -> g (a condition that makes a person become sick or develop skin or breathing problems), 7 -> a (a substance added to food to improve its taste or appearance), 8 -> d (dyes that are used to add or change colour), 9 -> e (chemical substances used to kill pests, especially insects), 10 -> f (in a manner that is clean in order to protect us against diseases)"
+          "question": "balanced",
+          "suggested_answer": "i"
+        },
+        {
+          "id": 3,
+          "question": "vital",
+          "suggested_answer": "j"
+        },
+        {
+          "id": 4,
+          "question": "supply",
+          "suggested_answer": "c"
+        },
+        {
+          "id": 5,
+          "question": "artificially",
+          "suggested_answer": "h"
+        },
+        {
+          "id": 6,
+          "question": "allergy",
+          "suggested_answer": "g"
+        },
+        {
+          "id": 7,
+          "question": "additive",
+          "suggested_answer": "a"
+        },
+        {
+          "id": 8,
+          "question": "colourants",
+          "suggested_answer": "d"
+        },
+        {
+          "id": 9,
+          "question": "pesticides",
+          "suggested_answer": "e"
+        },
+        {
+          "id": 10,
+          "question": "hygienically",
+          "suggested_answer": "f"
         }
       ],
       "bonusQuestions": [
         {
           "id": 1,
-          "question": "Fill blanks 1-5: (1) picked and ________ ripened, (2) a ________ daily programme, (3) am ________ for doing, (4) prepare their food ________, (5) enough ________ of water.",
-          "answer": "(1) artificially, (2) balanced, (3) responsible, (4) hygienically, (5) supply"
+          "question": "The fruits are picked and __ ripened before shipping.",
+          "answer": "artificially"
         },
         {
           "id": 2,
-          "question": "Fill blanks 6-10: (6) use ________ to kill insects, (7) avoiding foods containing ________, (8) develop an ________ to the fur, (9) It is ________ that you follow, (10) food colouring is often an ________.",
-          "answer": "(6) pesticides, (7) colourants, (8) allergy, (9) vital, (10) additive"
+          "question": "It is good for everyone to have a __ daily programme of work and recreation.",
+          "answer": "balanced"
+        },
+        {
+          "id": 3,
+          "question": "At home I am __ for doing the washing up.",
+          "answer": "responsible"
+        },
+        {
+          "id": 4,
+          "question": "All food sellers should prepare their food __.",
+          "answer": "hygienically"
+        },
+        {
+          "id": 5,
+          "question": "Do we have enough __ of water for the trip?",
+          "answer": "supply"
+        },
+        {
+          "id": 6,
+          "question": "We use __ to kill insects.",
+          "answer": "pesticides"
+        },
+        {
+          "id": 7,
+          "question": "We should avoid foods and drinks containing __.",
+          "answer": "colourants"
+        },
+        {
+          "id": 8,
+          "question": "Some people develop an __ to the fur of animals.",
+          "answer": "allergy"
+        },
+        {
+          "id": 9,
+          "question": "It is __ that you follow the rules laid down by the school.",
+          "answer": "vital"
+        },
+        {
+          "id": 10,
+          "question": "Food colouring is often an __ in foods.",
+          "answer": "additive"
         }
       ]
     },

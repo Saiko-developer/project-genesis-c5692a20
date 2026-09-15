@@ -33,6 +33,9 @@ import {
   preReading10A_translations,
   readingPassage10A_translations,
   vocab10B,
+  vocabularyMatchAnswers10B,
+  vocabularyMeanings10B,
+  vocabularySentenceTranslations10B,
 } from "@/data/unit10Supplement";
 import { getUnitAudio } from "@/lib/localData";
 import type { PracticeSkill } from "@/lib/practice";
@@ -180,9 +183,9 @@ function VocabularyView10() {
 
       <section className="rounded-2xl border border-border bg-card p-5">
         <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
-          <BookOpen className="h-3.5 w-3.5" /> Vocabulary — Word · Pronunciation · မြန်မာ အဓိပ္ပာယ်
+          <BookOpen className="h-3.5 w-3.5" /> Word guide · အသံထွက်နှင့် အဓိပ္ပာယ်
         </div>
-        <div className="mt-3 grid gap-2 sm:grid-cols-2">
+        <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {vocab10B.map((v) => (
             <VocabCard key={v.word} item={v} />
           ))}
@@ -190,19 +193,50 @@ function VocabularyView10() {
       </section>
 
       {lesson?.questions?.length ? (
-        <ExerciseGroup
-          title="Exercise A — Match the words"
-          titleMy="လေ့ကျင့်ခန်း A — စကားလုံးများ တွဲဖက်ပါ"
-          instructions={lesson.intro}
-          enableStructure={false}
-          placeholder="1 -> b, 2 -> i …"
-          items={lesson.questions.map((q: any) => ({
-            id: q.id,
-            text: q.question,
-            translation: "",
-            answer: q.suggested_answer ?? "",
-          }))}
-        />
+        <section className="rounded-2xl border border-border bg-card p-5">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
+            <ListChecks className="h-3.5 w-3.5" /> Exercise A — Match the words
+          </div>
+          <h3 className="mt-1 text-base font-semibold">လေ့ကျင့်ခန်း A — စကားလုံးနှင့် အဓိပ္ပာယ်ကို တွဲဖက်ပါ</h3>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Match the words (1–10) in Column A with their meanings (a–j) in Column B.
+          </p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            ကော်လံ A ရှိ စကားလုံးများ (၁–၁၀) ကို ကော်လံ B ရှိ ၎င်းတို့၏ အဓိပ္ပာယ်များ (a–j) နှင့် တွဲဖက်ပါ။
+          </p>
+
+          <div className="mt-5 grid items-start gap-5 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+            <div>
+              <p className="border-b border-border pb-2 text-xs font-semibold uppercase tracking-wider text-primary">Column A · Words</p>
+              <ol className="mt-3 space-y-3">
+                {lesson.questions.map((q: any) => (
+                  <li key={q.id} className="rounded-lg border border-border bg-background p-3">
+                    <p className="text-sm font-semibold"><span className="mr-2 text-primary">{q.id}.</span>{q.question}</p>
+                    <AnswerTryBox
+                      correct={vocabularyMatchAnswers10B[q.id] ?? q.suggested_answer ?? ""}
+                      placeholder="Type the matching letter…"
+                    />
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+            <div>
+              <p className="border-b border-border pb-2 text-xs font-semibold uppercase tracking-wider text-primary">Column B · Meanings</p>
+              <ol className="mt-3 space-y-2">
+                {vocabularyMeanings10B.map((item) => (
+                  <li key={item.key} className="grid grid-cols-[1.75rem_1fr] gap-2 rounded-lg border border-border bg-background p-3">
+                    <span className="flex h-7 w-7 items-center justify-center rounded-md bg-primary/10 text-sm font-bold text-primary">{item.key}</span>
+                    <div className="min-w-0">
+                      <p className="text-sm font-medium leading-relaxed">{item.meaning}</p>
+                      <p className="mt-1 border-t border-border pt-1 text-xs leading-relaxed text-muted-foreground">{item.meaningMy}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
+        </section>
       ) : null}
 
       {lesson?.bonusQuestions?.length ? (
@@ -215,7 +249,7 @@ function VocabularyView10() {
           items={lesson.bonusQuestions.map((q: any) => ({
             id: q.id,
             text: q.question,
-            translation: "",
+            translation: vocabularySentenceTranslations10B[q.id] ?? "",
             answer: q.answer ?? "",
           }))}
         />

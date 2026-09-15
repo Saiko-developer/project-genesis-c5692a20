@@ -95,6 +95,85 @@ export const vocab10B: VocabItem[] = [
   },
 ];
 
+export type VocabularyMatch10B = {
+  key: string;
+  meaning: string;
+  meaningMy: string;
+};
+
+/** 10B · A — Column B, kept in the same a–j order as the textbook. */
+export const vocabularyMeanings10B: VocabularyMatch10B[] = [
+  {
+    key: "a",
+    meaning: "a substance added to food to improve its taste or appearance",
+    meaningMy: "အစားအစာ၏ အရသာ သို့မဟုတ် ပုံပန်းသဏ္ဌာန်ကို ကောင်းမွန်စေရန် ထည့်သွင်းသည့် ပစ္စည်းတစ်မျိုး",
+  },
+  {
+    key: "b",
+    meaning: "having the job or duty of taking care of somebody / something",
+    meaningMy: "တစ်စုံတစ်ယောက် / တစ်စုံတစ်ရာကို စောင့်ရှောက်ရန် အလုပ် သို့မဟုတ် တာဝန်ရှိခြင်း",
+  },
+  { key: "c", meaning: "an amount of something", meaningMy: "တစ်စုံတစ်ရာ၏ ပမာဏတစ်ခု" },
+  {
+    key: "d",
+    meaning: "dyes that are used to add or change colour",
+    meaningMy: "အရောင်ထည့်ရန် သို့မဟုတ် ပြောင်းရန် အသုံးပြုသည့် ဆိုးဆေးများ",
+  },
+  {
+    key: "e",
+    meaning: "chemical substances used to kill pests, especially insects",
+    meaningMy: "အထူးသဖြင့် အင်းဆက်များကဲ့သို့ ဖျက်ပိုးများကို သတ်ရန် အသုံးပြုသည့် ဓာတုပစ္စည်းများ",
+  },
+  {
+    key: "f",
+    meaning: "in a manner that is clean in order to protect us against diseases",
+    meaningMy: "ရောဂါများမှ ကာကွယ်ရန် သန့်ရှင်းသော နည်းလမ်းဖြင့်",
+  },
+  {
+    key: "g",
+    meaning: "a condition that makes a person become sick or develop skin or breathing problems",
+    meaningMy: "လူတစ်ဦးကို နေမကောင်းဖြစ်စေခြင်း သို့မဟုတ် အရေပြားနှင့် အသက်ရှူလမ်းကြောင်း ပြဿနာများ ဖြစ်ပေါ်စေသည့် အခြေအနေ",
+  },
+  { key: "h", meaning: "not naturally", meaningMy: "သဘာဝအတိုင်း မဟုတ်ဘဲ" },
+  {
+    key: "i",
+    meaning: "containing different parts in suitable quantities",
+    meaningMy: "မတူညီသော အစိတ်အပိုင်းများကို သင့်လျော်သည့် ပမာဏများဖြင့် ပါဝင်သော",
+  },
+  {
+    key: "j",
+    meaning: "extremely important or necessary",
+    meaningMy: "အလွန်အရေးကြီးသော သို့မဟုတ် မရှိမဖြစ် လိုအပ်သော",
+  },
+];
+
+export const vocabularyMatchAnswers10B: Record<number, string> = {
+  1: "b",
+  2: "i",
+  3: "j",
+  4: "c",
+  5: "h",
+  6: "g",
+  7: "a",
+  8: "d",
+  9: "e",
+  10: "f",
+};
+
+/** 10B · B — translations mirror each English sentence and preserve its blank. */
+export const vocabularySentenceTranslations10B: Record<number, string> = {
+  1: "သစ်သီးများကို ပို့ဆောင်ခြင်းမပြုမီ ခူးဆွတ်ပြီး __ မှည့်စေသည်။",
+  2: "လူတိုင်းအတွက် အလုပ်နှင့် အပန်းဖြေမှုဆိုင်ရာ __ နေ့စဉ်အစီအစဉ်တစ်ခု ရှိခြင်းသည် ကောင်းသည်။",
+  3: "အိမ်တွင် ပန်းကန်ဆေးရန် ကျွန်ုပ်က __ ဖြစ်သည်။",
+  4: "အစားအသောက် ရောင်းချသူအားလုံးသည် မိမိတို့၏ အစားအစာကို __ ပြင်ဆင်သင့်သည်။",
+  5: "ခရီးအတွက် ရေ __ အလုံအလောက် ရှိပါသလား။",
+  6: "အင်းဆက်များကို သတ်ရန် ကျွန်ုပ်တို့သည် __ ကို အသုံးပြုသည်။",
+  7: "__ ပါဝင်သော အစားအစာများနှင့် သောက်စရာများကို ကျွန်ုပ်တို့ ရှောင်ကြဉ်သင့်သည်။",
+  8: "လူအချို့သည် တိရစ္ဆာန်အမွေးနှင့် __ ဖြစ်လာကြသည်။",
+  9: "ကျောင်းက ချမှတ်ထားသော စည်းမျဉ်းများကို သင်လိုက်နာရန် __ ဖြစ်သည်။",
+  10: "အစားအသောက်အရောင်ဆိုးဆေးသည် အစားအစာများတွင် မကြာခဏ __ တစ်မျိုး ဖြစ်သည်။",
+};
+
 /* ----------------------------- 10C Grammar ------------------------------ */
 
 export const partA10C_translations: Record<number, string> = {
