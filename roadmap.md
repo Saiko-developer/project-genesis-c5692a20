@@ -7,3 +7,7 @@
 
 ## Unit 10D
 - [x] Exercise A/B/C content matches the Unit 10 reference; all Burmese translations now show __ blanks with no answers revealed.
+
+## Unit 10B Vocabulary
+- [x] Rebuild Exercises A and B from Unit10_2.txt with all 10 matching rows and all 10 blank sentences.
+- [x] Preserve every missing word as `__` in both English and Myanmar prompts.
