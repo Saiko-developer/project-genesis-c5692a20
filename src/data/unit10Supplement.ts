@@ -149,25 +149,25 @@ export const listening10D_advantages: TableRow[] = [
     id: 1,
     text: "A lot of foods we buy in ________ are pre-packaged and pre-prepared.",
     answer: "supermarkets",
-    my: "စူပါမားကက်များတွင် ဝယ်ယူသော အစားအစာအများအပြားမှာ ကြိုတင်ထုပ်ပိုး၊ ကြိုတင်ပြင်ဆင်ထားပြီး ဖြစ်သည်။",
+    my: "ကျွန်ုပ်တို့ __ တွင် ဝယ်ယူသော အစားအစာအများအပြားမှာ ကြိုတင်ထုပ်ပိုး၊ ကြိုတင်ပြင်ဆင်ထားပြီး ဖြစ်သည်။",
   },
   {
     id: 2,
     text: "The pre-packaged and pre-prepared foods need little or no ________ before ready to be eaten.",
     answer: "cooking",
-    my: "ကြိုတင်ထုပ်ပိုးထားသော အစားအစာများသည် မစားမီ ချက်ပြုတ်ရန် အလွန်နည်းပါးသည် သို့မဟုတ် လုံးဝမလိုပါ။",
+    my: "ကြိုတင်ထုပ်ပိုး၊ ကြိုတင်ပြင်ဆင်ထားသော အစားအစာများသည် စားနိုင်ရန် __ အလွန်နည်းပါးသည် သို့မဟုတ် လုံးဝ မလိုပါ။",
   },
   {
     id: 3,
     text: "The prepacked foods are ________ for customers.",
     answer: "convenient",
-    my: "ကြိုတင်ထုပ်ပိုးထားသော အစားအစာများသည် ဝယ်ယူသူများအတွက် အဆင်ပြေသည်။",
+    my: "ကြိုတင်ထုပ်ပိုးထားသော အစားအစာများသည် ဝယ်ယူသူများအတွက် __ ဖြစ်သည်။",
   },
   {
     id: 4,
     text: "They save a lot of ________.",
     answer: "time",
-    my: "အချိန်များစွာ သက်သာစေသည်။",
+    my: "ယင်းတို့သည် __ များစွာ သက်သာစေသည်။",
   },
 ];
 
@@ -177,25 +177,25 @@ export const listening10D_disadvantages: TableRow[] = [
     id: 1,
     text: "Most of the foods contain chemicals and ________.",
     answer: "additives",
-    my: "အစားအစာအများစုတွင် ဓာတုပစ္စည်းများနှင့် ပေါင်းထည့်ပစ္စည်း (additives) များ ပါဝင်သည်။",
+    my: "အစားအစာအများစုတွင် ဓာတုပစ္စည်းများနှင့် __ ပါဝင်သည်။",
   },
   {
     id: 2,
     text: "They harm ________ and animals.",
     answer: "humans",
-    my: "ယင်းတို့သည် လူသားများနှင့် တိရစ္ဆာန်များကို ထိခိုက်စေသည်။",
+    my: "ယင်းတို့သည် __ နှင့် တိရစ္ဆာန်များကို ထိခိုက်စေသည်။",
   },
   {
     id: 3,
     text: "Many chemicals are used in meats, ________ and farm produce.",
     answer: "fish",
-    my: "ဓာတုပစ္စည်းများစွာကို အသားများ၊ ငါးများနှင့် လယ်ယာထွက်ကုန်များတွင် အသုံးပြုကြသည်။",
+    my: "ဓာတုပစ္စည်းများစွာကို အသားများ၊ __ နှင့် လယ်ယာထွက်ကုန်များတွင် အသုံးပြုကြသည်။",
   },
   {
     id: 4,
     text: "Eating unsafe food will add great costs to our ________ system.",
     answer: "healthcare",
-    my: "ဘေးအန္တရာယ်ရှိသော အစားအစာ စားသုံးခြင်းသည် ကျန်းမာရေးစောင့်ရှောက်မှုစနစ်အတွက် ကုန်ကျစရိတ် များစွာ တိုးစေမည်။",
+    my: "ဘေးအန္တရာယ်ရှိသော အစားအစာ စားသုံးခြင်းသည် ကျွန်ုပ်တို့၏ __ စနစ်အတွက် ကုန်ကျစရိတ် များစွာ တိုးစေမည်။",
   },
 ];
 
@@ -231,7 +231,7 @@ export const dialogue10D: DialogueLine[] = [
     after: " do you usually eat?",
     answer: "What fruits",
     optionKey: "b",
-    my: "သင် ပုံမှန် ဘယ်သစ်သီးတွေ စားလေ့ရှိလဲ။",
+    my: "သင် ပုံမှန် __ စားလေ့ရှိလဲ။",
   },
   {
     speaker: "B",
@@ -245,7 +245,7 @@ export const dialogue10D: DialogueLine[] = [
     after: " and why?",
     answer: "do you like most",
     optionKey: "e",
-    my: "အဲဒီထဲက ဘယ်ဟာကို အနှစ်သက်ဆုံးလဲ၊ ဘာကြောင့်လဲ။",
+    my: "အဲဒီထဲက ဘယ်ဟာကို __ လဲ၊ ဘာကြောင့်လဲ။",
   },
   {
     speaker: "B",
@@ -259,7 +259,7 @@ export const dialogue10D: DialogueLine[] = [
     after: " oranges are good for health?",
     answer: "Do you think",
     optionKey: "d",
-    my: "လိမ္မော်သီးက ကျန်းမာရေးအတွက် ကောင်းတယ်လို့ ထင်လား။",
+    my: "လိမ္မော်သီးက ကျန်းမာရေးအတွက် ကောင်းတယ်လို့ __ ။",
   },
   {
     speaker: "B",
@@ -273,7 +273,7 @@ export const dialogue10D: DialogueLine[] = [
     after: " oranges good for health?",
     answer: "How are",
     optionKey: "f",
-    my: "လိမ္မော်သီးက ကျန်းမာရေးအတွက် ဘယ်လိုကောင်းတာလဲ။",
+    my: "လိမ္မော်သီးက ကျန်းမာရေးအတွက် __ ကောင်းတာလဲ။",
   },
   {
     speaker: "B",
@@ -287,7 +287,7 @@ export const dialogue10D: DialogueLine[] = [
     after: " do you eat them?",
     answer: "How often",
     optionKey: "c",
-    my: "ဘယ်လောက် မကြာခဏ စားလဲ။",
+    my: "__ သင် ယင်းတို့ကို စားလဲ။",
   },
   { speaker: "B", text: "Almost every day.", my: "နေ့တိုင်းလိုလို စားပါတယ်။" },
   {
@@ -297,7 +297,7 @@ export const dialogue10D: DialogueLine[] = [
     after: " any kind of fruit you don't like?",
     answer: "Is there",
     optionKey: "a",
-    my: "မကြိုက်တဲ့ သစ်သီးတစ်မျိုးမျိုး ရှိလား။",
+    my: "သင် မကြိုက်တဲ့ သစ်သီးတစ်မျိုးမျိုး __ ။",
   },
   {
     speaker: "B",

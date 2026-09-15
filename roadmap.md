@@ -4,3 +4,6 @@
 
 ## Review 3
 - [x] Add src/data/review3.ts from REVIEW_3.docx (Part A word box, Part B rewriting) + Review3View wired to the Review 3 banner.
+
+## Unit 10D
+- [x] Exercise A/B/C content matches the Unit 10 reference; all Burmese translations now show __ blanks with no answers revealed.
