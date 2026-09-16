@@ -387,7 +387,61 @@
             "paragraph_id": 2,
             "lines": "5-6",
             "english_text": "What is food? Food is something we eat or drink. Rice is food. Milk is food. Bread is food. Butter, cheese, vegetables, beef, mutton, fish, fruits are all food. In fact, water too is food.",
-            "burmese_explanation": "အစားအစာ၏ အဓိပ္ပာယ်၊ အဘယ်ကြောင့် လိုအပ်ပုံ၊ ကောင်းကျိုးနှင့် ဆိုးကျိုးရှိသော အစားအစာများအပြင် အစားအသောက် ဘေးကင်းလုံခြုံမှုနှင့် ပတ်သက်သည့် အသေးစိတ် စာပိုဒ်များနှင့် ဘာသာပြန်များကို အပြည့်အစုံကို လမ်းညွှန်ချက်များနှင့်အညီ ရည်ညွှန်းစာတမ်းများတွင် ဆက်လက်ရှာဖွေနိုင်ပါသည်။"
+            "burmese_explanation": "အစားအစာဆိုသည်မှာ အဘယ်နည်း။ အစားအစာဆိုသည်မှာ ကျွန်ုပ်တို့ စားသည့် သို့မဟုတ် သောက်သည့် အရာတစ်ခုဖြစ်သည်။ ထမင်းသည် အစားအစာဖြစ်သည်။ နို့သည် အစားအစာဖြစ်သည်။ ပေါင်မုန့်သည် အစားအစာဖြစ်သည်။ ထောပတ်၊ ဒိန်ခဲ၊ ဟင်းသီးဟင်းရွက်များ၊ အမဲသား၊ သိုးသား၊ ငါးနှင့် သစ်သီးဝလံများအားလုံးသည် အစားအစာများဖြစ်ကြသည်။ အမှန်စင်စစ် ရေသည်လည်း အစားအစာဖြစ်သည်။"
+          },
+          {
+            "paragraph_id": 3,
+            "lines": "7-12",
+            "english_text": "What do we need food for? We primarily need food for health, energy, and growth, requiring a daily supply of essential nutrients like starch, sugar, proteins, fats, vitamins, and minerals found in various foods. While we sometimes eat purely for pleasure (such as ice cream or popcorn), our overall food requirement increases with our level of physical activity.",
+            "burmese_explanation": "ကျွန်ုပ်တို့သည် အစားအစာကို အဘယ်အတွက်ကြောင့် လိုအပ်သနည်း။ ကျွန်ုပ်တို့သည် ကျန်းမာရေး၊ စွမ်းအင်နှင့် ကြီးထွားဖွံ့ဖြိုးမှုတို့အတွက် အစားအစာကို အဓိကလိုအပ်ကြပြီး အစားအစာအမျိုးမျိုးတွင် တွေ့ရှိရသော ကစီဓာတ်၊ သကြားဓာတ်၊ အသားဓာတ်၊ အဆီဓာတ်၊ ဗီတာမင်များနှင့် သတ္တုဓာတ်များကဲ့သို့ မရှိမဖြစ်လိုအပ်သော အာဟာရဓာတ်များကို နေ့စဉ်ရရှိရန် လိုအပ်သည်။ ကျွန်ုပ်တို့သည် တစ်ခါတစ်ရံ ရေခဲမုန့် သို့မဟုတ် ပြောင်းဖူးပေါက်ပေါက်ကဲ့သို့ အစားအစာများကို အရသာခံစားမှုအတွက်သာ စားသုံးသော်လည်း ကိုယ်လက်လှုပ်ရှားမှု များပြားလာသည်နှင့်အမျှ အစားအစာလိုအပ်ချက်လည်း တိုးလာသည်။"
+          },
+          {
+            "paragraph_id": 4,
+            "lines": "13-16",
+            "english_text": "What kind of food is good for us? Fresh fruits and vegetables are good for us because they contain vitamins and minerals. Eggs, milk, cheese, fish, chicken, beef, and mutton are good for us because they contain proteins. Rice, bread, and potatoes give us carbohydrate for the starch and sugar we need for our daily activities.",
+            "burmese_explanation": "မည်သည့်အစားအစာအမျိုးအစားက ကျွန်ုပ်တို့အတွက် ကောင်းမွန်သနည်း။ လတ်ဆတ်သော သစ်သီးဝလံများနှင့် ဟင်းသီးဟင်းရွက်များတွင် ဗီတာမင်များနှင့် သတ္တုဓာတ်များ ပါဝင်သောကြောင့် ကျွန်ုပ်တို့အတွက် ကောင်းမွန်သည်။ ဥများ၊ နို့၊ ဒိန်ခဲ၊ ငါး၊ ကြက်သား၊ အမဲသားနှင့် သိုးသားတို့တွင် အသားဓာတ်ပါဝင်သောကြောင့် ကျွန်ုပ်တို့အတွက် ကောင်းမွန်သည်။ ထမင်း၊ ပေါင်မုန့်နှင့် အာလူးတို့သည် ကျွန်ုပ်တို့၏ နေ့စဉ်လှုပ်ရှားမှုများအတွက် လိုအပ်သော ကစီဓာတ်နှင့် သကြားဓာတ်တို့ပါဝင်သည့် ကာဗိုဟိုက်ဒရိတ်ကို ပေးသည်။"
+          },
+          {
+            "paragraph_id": 5,
+            "lines": "17-20",
+            "english_text": "One thing we need to be careful about is that we should never eat more than we need. After all, too much of anything is not good. All doctors advise us to have a \"balanced diet\". A \"balanced diet\" is \"a combination of the correct types and amounts of food\". If we have a balanced diet, we will get the right amount of vitamins and minerals for each day.",
+            "burmese_explanation": "ကျွန်ုပ်တို့ သတိထားရမည့် အချက်တစ်ခုမှာ လိုအပ်သည်ထက် ပို၍ မစားသင့်ခြင်းဖြစ်သည်။ မည်သည့်အရာမဆို အလွန်အကျွံဖြစ်လျှင် မကောင်းပါ။ ဆရာဝန်အားလုံးက မျှတသော အစားအစာကို စားသုံးရန် အကြံပြုကြသည်။ မျှတသော အစားအစာဆိုသည်မှာ မှန်ကန်သည့် အစားအစာအမျိုးအစားများနှင့် ပမာဏများကို ပေါင်းစပ်ထားခြင်းဖြစ်သည်။ မျှတသော အစားအစာကို စားသုံးပါက နေ့စဉ်လိုအပ်သော ဗီတာမင်နှင့် သတ္တုဓာတ်ပမာဏ မှန်ကန်စွာ ရရှိမည်ဖြစ်သည်။"
+          },
+          {
+            "paragraph_id": 6,
+            "lines": "21-27",
+            "english_text": "What kind of food is not good for us? Any fruit or vegetable that is not fresh is not good for us. Any fish or meat that is not fresh is not good for us. Any vegetable or meat that is not well-cooked is not good for us. Too much of any kind of food is not good for us. Generally speaking, any food that makes us sick is not good for us. For example, certain mushrooms and certain types of seafood can make us sick, that is, they make us vomit after eating them, and in certain cases, can make us break out in rash. This is commonly known as food allergy. In some cases, a wrong combination of food can cause food poisoning and even death.",
+            "burmese_explanation": "မည်သည့်အစားအစာအမျိုးအစားက ကျွန်ုပ်တို့အတွက် မကောင်းမွန်သနည်း။ မလတ်ဆတ်သော မည်သည့်သစ်သီး သို့မဟုတ် ဟင်းသီးဟင်းရွက်မဆို ကျွန်ုပ်တို့အတွက် မကောင်းပါ။ မလတ်ဆတ်သော မည်သည့်ငါး သို့မဟုတ် အသားမဆို ကျွန်ုပ်တို့အတွက် မကောင်းပါ။ ကောင်းစွာ မချက်ပြုတ်ထားသော မည်သည့်ဟင်းသီးဟင်းရွက် သို့မဟုတ် အသားမဆို ကျွန်ုပ်တို့အတွက် မကောင်းပါ။ မည်သည့်အစားအစာအမျိုးအစားကိုမဆို အလွန်အကျွံ စားသုံးခြင်းသည် ကျွန်ုပ်တို့အတွက် မကောင်းပါ။ ယေဘုယျအားဖြင့် ကျွန်ုပ်တို့ကို နေမကောင်းဖြစ်စေသော မည်သည့်အစားအစာမဆို ကျွန်ုပ်တို့အတွက် မကောင်းပါ။ ဥပမာအားဖြင့် မှိုအမျိုးအစားအချို့နှင့် ပင်လယ်စာအမျိုးအစားအချို့သည် ကျွန်ုပ်တို့ကို နေမကောင်းဖြစ်စေနိုင်သည်။ ဆိုလိုသည်မှာ ယင်းတို့ကို စားပြီးနောက် အန်စေနိုင်ကာ အချို့အခြေအနေများတွင် အရေပြားအဖုအပိန့်များ ထွက်စေနိုင်သည်။ ယင်းကို အစားအစာဓာတ်မတည့်မှုဟု အများအားဖြင့် ခေါ်သည်။ အချို့အခြေအနေများတွင် မသင့်လျော်သော အစားအစာများကို တွဲဖက်စားသုံးခြင်းကြောင့် အစာအဆိပ်သင့်ခြင်းနှင့် သေဆုံးခြင်းပင် ဖြစ်စေနိုင်သည်။"
+          },
+          {
+            "paragraph_id": 7,
+            "lines": "28-31",
+            "english_text": "Moreover, many preserved foods such as corned beef, canned sardines, tuna, sausages are not advisable. So are artificially flavoured fruit juices. All those canned fish or meat and flavoured fruit juices contain additives and colourants, which are chemicals that can be harmful to our health.",
+            "burmese_explanation": "ထို့အပြင် ဆားနယ်အမဲသား၊ သံဘူးထည့် ဆာဒင်းငါး၊ တူနာငါးနှင့် ဝက်အူချောင်းကဲ့သို့ တာရှည်ခံအောင် ပြုပြင်ထားသော အစားအစာများစွာကို စားသုံးရန် မသင့်တော်ပါ။ အတုပြုလုပ်ထားသော အနံ့အရသာများ ထည့်ထားသည့် သစ်သီးဖျော်ရည်များလည်း ထိုနည်းတူပင် ဖြစ်သည်။ ယင်းသံဘူးထည့် ငါး သို့မဟုတ် အသားများနှင့် အနံ့အရသာထည့်ထားသော သစ်သီးဖျော်ရည်များအားလုံးတွင် ကျွန်ုပ်တို့၏ ကျန်းမာရေးကို ထိခိုက်စေနိုင်သော ဓာတုပစ္စည်းများဖြစ်သည့် ဖြည့်စွက်ပစ္စည်းများနှင့် အရောင်ဆိုးပစ္စည်းများ ပါဝင်သည်။"
+          },
+          {
+            "paragraph_id": 8,
+            "lines": "32-35",
+            "english_text": "Furthermore, many farmers today use chemical fertilizers and pesticides for good reasons, but in most cases, such fertilizers and pesticides are overused. As a result, the vegetables and fruits we eat can contain traces of fertilizers and pesticides. All these are harmful to health.",
+            "burmese_explanation": "ထို့ပြင် ယနေ့ခေတ် တောင်သူလယ်သမားများစွာသည် အကြောင်းပြချက်ကောင်းများဖြင့် ဓာတ်မြေဩဇာများနှင့် ပိုးသတ်ဆေးများကို အသုံးပြုကြသော်လည်း အများအားဖြင့် ထိုဓာတ်မြေဩဇာများနှင့် ပိုးသတ်ဆေးများကို အလွန်အကျွံ အသုံးပြုကြသည်။ ထို့ကြောင့် ကျွန်ုပ်တို့စားသုံးသည့် ဟင်းသီးဟင်းရွက်များနှင့် သစ်သီးဝလံများတွင် ဓာတ်မြေဩဇာနှင့် ပိုးသတ်ဆေး အကြွင်းအကျန်များ ပါဝင်နိုင်သည်။ ယင်းတို့အားလုံးသည် ကျန်းမာရေးကို ထိခိုက်စေသည်။"
+          },
+          {
+            "paragraph_id": 9,
+            "lines": "36-41",
+            "english_text": "What is food safety? \"Food safety\" means \"food that is safe to eat; food that will not be harmful to our health\". This means that food, right from its production to our dining table must be hygienically handled. This means that the vegetables and fruits we buy should not only be fresh but also free of traces of fertilizers and pesticides. Similarly, the meat we buy should never be from diseased animals. Canned meat, fish, fruit, and vegetables, as well as flavoured fruit juices should contain as little additives and colourants as possible.",
+            "burmese_explanation": "အစားအသောက် ဘေးကင်းလုံခြုံမှုဆိုသည်မှာ အဘယ်နည်း။ အစားအသောက် ဘေးကင်းလုံခြုံမှုဆိုသည်မှာ စားသုံးရန် ဘေးကင်းသော အစားအစာ၊ ကျွန်ုပ်တို့၏ ကျန်းမာရေးကို ထိခိုက်စေမည်မဟုတ်သော အစားအစာဟု ဆိုလိုသည်။ ထို့ကြောင့် အစားအစာကို ထုတ်လုပ်ချိန်မှ ကျွန်ုပ်တို့၏ စားပွဲပေါ် ရောက်ရှိချိန်အထိ ကျန်းမာရေးနှင့် ညီညွတ်သန့်ရှင်းစွာ ကိုင်တွယ်ရမည်ဟု ဆိုလိုသည်။ ကျွန်ုပ်တို့ဝယ်ယူသော ဟင်းသီးဟင်းရွက်များနှင့် သစ်သီးဝလံများသည် လတ်ဆတ်ရုံသာမက ဓာတ်မြေဩဇာနှင့် ပိုးသတ်ဆေး အကြွင်းအကျန်များလည်း ကင်းစင်သင့်သည်။ အလားတူပင် ကျွန်ုပ်တို့ဝယ်ယူသော အသားသည် ရောဂါရှိသည့် တိရစ္ဆာန်များမှ လုံးဝ မဖြစ်သင့်ပါ။ သံဘူးထည့် အသား၊ ငါး၊ သစ်သီးနှင့် ဟင်းသီးဟင်းရွက်များအပြင် အနံ့အရသာထည့်ထားသော သစ်သီးဖျော်ရည်များတွင် ဖြည့်စွက်ပစ္စည်းများနှင့် အရောင်ဆိုးပစ္စည်းများ တတ်နိုင်သမျှ အနည်းဆုံးသာ ပါဝင်သင့်သည်။"
+          },
+          {
+            "paragraph_id": 10,
+            "lines": "42-44",
+            "english_text": "Many countries have a department known as \"Food and Drug Administration\" (FDA). The department is responsible for the safety of food and drug in the country.",
+            "burmese_explanation": "နိုင်ငံများစွာတွင် အစားအသောက်နှင့် ဆေးဝါးကွပ်ကဲရေးဌာနဟု ခေါ်သော ဌာနတစ်ခု ရှိသည်။ ထိုဌာနသည် နိုင်ငံအတွင်းရှိ အစားအသောက်နှင့် ဆေးဝါးများ၏ ဘေးကင်းလုံခြုံမှုအတွက် တာဝန်ရှိသည်။"
+          },
+          {
+            "paragraph_id": 11,
+            "lines": "45-46",
+            "english_text": "Nevertheless, we ourselves must do our best to look after our own safety by having only fresh fruits and vegetables, only well-cooked meat or fish, and a balanced diet.",
+            "burmese_explanation": "မည်သို့ပင်ဆိုစေကာမူ ကျွန်ုပ်တို့ကိုယ်တိုင်လည်း လတ်ဆတ်သော သစ်သီးဝလံများနှင့် ဟင်းသီးဟင်းရွက်များ၊ ကောင်းစွာချက်ပြုတ်ထားသော အသား သို့မဟုတ် ငါးနှင့် မျှတသော အစားအစာတို့ကိုသာ စားသုံးခြင်းဖြင့် မိမိတို့၏ ဘေးကင်းလုံခြုံမှုကို စောင့်ရှောက်ရန် အတတ်နိုင်ဆုံး ကြိုးစားရမည်။"
           }
         ]
       }
